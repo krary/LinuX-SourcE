@@ -25,7 +25,23 @@ cd build/src/nautilus
 .nautilus-grid-cell label {
     color: #00FF00;
 }
+========================================================================
 
+
+
+
+
+#CAMBIAR FONDO  : src/resources/style.css
+===================================================
+/* Fondo personalizado para la vista de archivos */
+.nautilus-grid-view,
+.nautilus-list-view {
+    background-image: url('file:///home/lisandro/Imágenes/nautilus_fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+===================================================================================
 
 
 
