@@ -389,3 +389,11 @@ rubberband {
 .toolbar.no-bottom-padding {
   padding-bottom: 0px;
 }
+
+/* Forzar texto verde en listas, cuadrículas y ventanas de Nautilus */
+.nautilus-window label,
+.nautilus-grid-view label,
+.nautilus-list-view label,
+.nautilus-grid-cell label {
+    color: #00FF00;
+}
