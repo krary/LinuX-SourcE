@@ -1,0 +1,23 @@
+#CAMPILAR ....
+=====================
+meson setup build
+ninja -C build #COMPILA...
+=================================================
+
+
+
+#EJECUTAR DESPUES DE LA COMPILACION
+==================================================
+nautilus -q #CIERRA TODAS LAS VENTANAS DE NAUTILUS
+cd build/src/nautilus
+==================================================
+
+
+
+#ARCHVIO src/resources/style.css
+===============================
+#LETRAS EN VERDE :
+
+
+
+
