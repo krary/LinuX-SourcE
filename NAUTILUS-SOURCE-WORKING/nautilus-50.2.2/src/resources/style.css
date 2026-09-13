@@ -391,9 +391,18 @@ rubberband {
 }
 
 /* Forzar texto verde en listas, cuadrículas y ventanas de Nautilus */
-.nautilus-window label,
+/*.nautilus-window label,
 .nautilus-grid-view label,
 .nautilus-list-view label,
 .nautilus-grid-cell label {
     color: #00FF00;
+}
+*/
+/* Fondo personalizado para la vista de archivos */
+.nautilus-grid-view,
+.nautilus-list-view {
+    background-image: url('file:///home/lisandro/Imágenes/nautilus_fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

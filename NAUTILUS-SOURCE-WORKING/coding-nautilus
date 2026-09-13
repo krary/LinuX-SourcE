@@ -16,7 +16,16 @@ cd build/src/nautilus
 
 #ARCHVIO src/resources/style.css
 ===============================
-#LETRAS EN VERDE :
+#LETRAS EN VERDE 
+#AL FINAL DE EL ARCHIVO PONEMOS:
+/* Forzar texto verde en listas, cuadrículas y ventanas de Nautilus */
+.nautilus-window label,
+.nautilus-grid-view label,
+.nautilus-list-view label,
+.nautilus-grid-cell label {
+    color: #00FF00;
+}
+
 
 
 
